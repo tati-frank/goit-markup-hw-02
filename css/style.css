@@ -1,0 +1,96 @@
+/* Colors */
+
+:root {
+  --iris-color: #4d5ae5;
+
+  --navy-blue: #2e2f42;
+
+  --slate: #434455;
+
+  --white: #ffffff;
+
+  --cloud: #f4f4fd;
+
+  --cornflower: #e7e9fc;
+}
+
+.unordered {
+  list-style: none;
+}
+/* Navigation */
+
+.nav-link {
+  color: var(--navy-blue);
+}
+
+.email {
+  color: var(--slate);
+}
+
+.phone-nr {
+  color: var(--slate);
+}
+
+/* Hero */
+
+.hero-header {
+  color: var(--white);
+  background-color: var(--navy-blue);
+}
+.button {
+  background-color: var(--iris-color);
+  border-radius: 4px;
+  color: var(--white);
+}
+
+/* Section Features*/
+
+.feautures {
+  background-color: var(--white);
+}
+
+.feautures-item {
+  color: var(--navy-blue);
+}
+
+.feautures-text {
+  color: var(--slate);
+}
+
+/* Section Possibilities */
+
+.possib {
+  background-color: var(--white);
+}
+
+.possib-header {
+  color: var(--navy-blue);
+}
+
+/* Section Team */
+
+.team {
+  background-color: var(--cloud);
+}
+
+.team-header {
+  color: var(--navy-blue);
+}
+
+.team-item {
+  color: var(--navy-blue);
+}
+
+.team-text {
+  color: var(--slate);
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--navy-blue);
+}
+
+.footer-text {
+  color: var(--white);
+}
