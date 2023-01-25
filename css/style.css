@@ -3,6 +3,8 @@
 :root {
   --iris-color: #4d5ae5;
 
+  --ocean: #404bbf;
+
   --navy-blue: #2e2f42;
 
   --slate: #434455;
@@ -17,6 +19,16 @@
 .unordered {
   list-style: none;
 }
+
+.without-underline:link,
+.without-underline:visited,
+.without-underline:hover,
+.without-underline:focus,
+.without-underline:active {
+  text-decoration: none;
+}
+
+/* Index Index Index Index Index Index Index Index Index Index Index Index */
 /* Navigation */
 
 .nav-link {
@@ -93,4 +105,34 @@
 
 .footer-text {
   color: var(--white);
+}
+
+/* Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio  */
+
+/* Filter Buttons */
+
+.button-filter {
+  color: var(--iris-color);
+  background-color: var(--cloud);
+  border: solid 1px var(--cornflower);
+}
+
+.button-filter:active {
+  color: var(--white);
+  background-color: var(--ocean);
+  border: solid 1px var(--ocean);
+}
+
+/* Cards */
+
+.portfolio-card {
+  background-color: var(--white);
+}
+
+.portfolio-card-header {
+  color: var(--navy-blue);
+}
+
+.portfolio-card-text {
+  color: var(--slate);
 }
