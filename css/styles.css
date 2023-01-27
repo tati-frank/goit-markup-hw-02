@@ -28,6 +28,22 @@ body {
 .list {
   list-style: none;
 }
+
+.pointer {
+  cursor: pointer;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 /* Header Header  Header  Header  Header  Header  Header */
 
 .header-logo {
@@ -38,6 +54,11 @@ body {
   line-height: 1.6;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--primary-brand-iris);
+}
+
+.logo-dark {
+  color: var(--dark-headings-navy);
 }
 
 .navigation {
@@ -50,23 +71,38 @@ body {
   letter-spacing: 0.02em;
   color: var(--dark-headings-navy);
 }
+.navigation-link:hover,
+.navigation-link:focus,
+.navigation-link.current {
+  color: var(--btn-active-ocean);
+}
 
 .address {
 }
 
 .address-email {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   color: var(--body-text-slate);
 }
+.address-email:hover,
+.address-email:focus {
+  color: var(--btn-active-ocean);
+}
+.address-email:current {
+  color: var(--btn-active-ocean);
+}
+
 .address-phone-nr {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   color: var(--body-text-slate);
+}
+.address-phone-nr:hover,
+.address-phone-nr:focus {
+  color: var(--btn-active-ocean);
 }
 /* Index Main Index Main Index Main Index Main Index Main */
 
@@ -83,8 +119,7 @@ body {
   color: var(--white);
 }
 .hero-button {
-  width: 169px;
-  height: 56px;
+  font-family: inherit;
   background-color: var(--primary-brand-iris);
   color: var(--white);
   font-weight: 500;
@@ -93,6 +128,11 @@ body {
   border: solid var(--primary-brand-iris);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--btn-active-ocean);
+  border: solid var(--btn-active-ocean);
 }
 
 /* Features */
@@ -174,7 +214,11 @@ body {
   line-height: 1.6;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--accent-color-background-cornflower);
+  color: var(--primary-brand-iris);
+}
+
+.logo-bright {
+  color: var(--light-background-cloud);
 }
 
 .footer-text {
@@ -192,6 +236,7 @@ body {
 }
 
 .button-filter {
+  font-family: inherit;
   background-color: var(--light-background-cloud);
   font-weight: 500;
   font-size: 16px;
@@ -201,6 +246,12 @@ body {
   color: var(--primary-brand-iris);
   border: 1px solid var(--accent-color-background-cornflower);
   border-radius: 4px;
+}
+.button-filter:hover,
+.button-filter:focus,
+.button-filter.current {
+  background-color: var(--btn-active-ocean);
+  color: var(--white);
 }
 
 /* Portfolio Cards */
