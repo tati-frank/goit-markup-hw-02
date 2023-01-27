@@ -1,0 +1,222 @@
+/* Colors */
+/* --what used for-name in a layout */
+
+:root {
+  --primary-brand-iris: #4d5ae5;
+
+  --btn-active-ocean: #404bbf;
+
+  --dark-headings-navy: #2e2f42;
+
+  --body-text-slate: #434455;
+
+  --white: #ffffff;
+
+  --light-background-cloud: #f4f4fd;
+
+  --accent-color-background-cornflower: #e7e9fc;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--body-text-slate);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+/* Header Header  Header  Header  Header  Header  Header */
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.navigation {
+}
+
+.navigation-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--dark-headings-navy);
+}
+
+.address {
+}
+
+.address-email {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--body-text-slate);
+}
+.address-phone-nr {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--body-text-slate);
+}
+/* Index Main Index Main Index Main Index Main Index Main */
+
+/* Hero */
+.hero {
+  background-color: var(--dark-headings-navy);
+}
+.hero-header {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+.hero-button {
+  width: 169px;
+  height: 56px;
+  background-color: var(--primary-brand-iris);
+  color: var(--white);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  border: solid var(--primary-brand-iris);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+/* Features */
+
+.features {
+}
+.features-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-headings-navy);
+}
+
+.feautures-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* What are we doing Section */
+
+.what-we-do {
+}
+
+.what-we-do-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark-headings-navy);
+}
+
+/* Our Team Section */
+
+.team {
+  background-color: var(--light-background-cloud);
+}
+
+.team-card {
+  background-color: var(--white);
+}
+
+.team-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark-headings-navy);
+}
+
+.team-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-headings-navy);
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* Footer Footer Footer Footer Footer Footer Footer Footer */
+
+.footer {
+  background-color: var(--dark-headings-navy);
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent-color-background-cornflower);
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--accent-color-background-cornflower);
+}
+
+/* Portfolio Main Portfolio Main Portfolio Main Portfolio Main */
+
+/* Filter Buttons */
+
+.filter {
+}
+
+.button-filter {
+  background-color: var(--light-background-cloud);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  letter-spacing: 0.04em;
+  color: var(--primary-brand-iris);
+  border: 1px solid var(--accent-color-background-cornflower);
+  border-radius: 4px;
+}
+
+/* Portfolio Cards */
+
+.portfolio-card {
+}
+.portfolio-card-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-headings-navy);
+}
+.portfolio-card-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--body-text-slate);
+}
