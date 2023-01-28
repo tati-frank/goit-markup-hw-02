@@ -1,5 +1,5 @@
-/* Colors */
-/* --what used for-name in a layout */
+/*------------------COLORS---------------------- */
+/* --what used for - name in a layout */
 
 :root {
   --primary-brand-iris: #4d5ae5;
@@ -16,6 +16,7 @@
 
   --accent-color-background-cornflower: #e7e9fc;
 }
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--body-text-slate);
@@ -44,7 +45,7 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
-/* Header Header  Header  Header  Header  Header  Header */
+/*------------------HEADER---------------------- */
 
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -72,8 +73,7 @@ body {
   color: var(--dark-headings-navy);
 }
 .navigation-link:hover,
-.navigation-link:focus,
-.navigation-link.current {
+.navigation-link:focus {
   color: var(--btn-active-ocean);
 }
 
@@ -104,9 +104,9 @@ body {
 .address-phone-nr:focus {
   color: var(--btn-active-ocean);
 }
-/* Index Main Index Main Index Main Index Main Index Main */
+/*------------------INDEX MAIN---------------------- */
 
-/* Hero */
+/*---------------------HERO------------------------- */
 .hero {
   background-color: var(--dark-headings-navy);
 }
@@ -135,7 +135,7 @@ body {
   border: solid var(--btn-active-ocean);
 }
 
-/* Features */
+/*------------------FEATURES---------------------- */
 
 .features {
 }
@@ -153,7 +153,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* What are we doing Section */
+/*----------------WHAT WE DO SECTION------------------- */
 
 .what-we-do {
 }
@@ -168,7 +168,7 @@ body {
   color: var(--dark-headings-navy);
 }
 
-/* Our Team Section */
+/*-----------------OUR TEAM SECTION--------------------- */
 
 .team {
   background-color: var(--light-background-cloud);
@@ -201,7 +201,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/* Footer Footer Footer Footer Footer Footer Footer Footer */
+/*------------------FOOTER---------------------- */
 
 .footer {
   background-color: var(--dark-headings-navy);
@@ -228,9 +228,9 @@ body {
   color: var(--accent-color-background-cornflower);
 }
 
-/* Portfolio Main Portfolio Main Portfolio Main Portfolio Main */
+/*------------------PORTFOLIO MAIN---------------------- */
 
-/* Filter Buttons */
+/*------------------FILTER BUTTONS---------------------- */
 
 .filter {
 }
@@ -248,13 +248,12 @@ body {
   border-radius: 4px;
 }
 .button-filter:hover,
-.button-filter:focus,
-.button-filter.current {
+.button-filter:focus {
   background-color: var(--btn-active-ocean);
   color: var(--white);
 }
 
-/* Portfolio Cards */
+/*-----------------PORTFOLIO CARDS--------------------- */
 
 .portfolio-card {
 }
